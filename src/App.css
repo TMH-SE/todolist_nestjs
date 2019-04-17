@@ -1,0 +1,33 @@
+.container{
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.header{
+  text-align: center;
+  margin: 25px;
+}
+button.ant-btn-danger{
+  background-color: red;
+  color: white;
+}
+.control{
+  margin-top: 15px;
+}
+.task-control, .task-list{
+  margin: 20px 0;
+}
+.ant-col-12.sortcontrol{
+  padding-left: 30px;
+}
+label.actived, label.disabled{
+  color: white;
+  padding: 3px;
+  cursor: pointer;
+}
+label.disabled{
+  background: red;
+}
+label.actived{
+  background: green;
+}
